@@ -1,0 +1,161 @@
+@media only screen and (max-width:640px){
+    body{
+        background-color: #E3EEF8;
+
+        .haut{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            .logo{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 35px;
+            right: 89.6%;
+            top: 11px;
+            bottom: 99.74%;
+            }
+            
+            .shades{
+            position: absolute;
+            font-family: arial;
+            height: 14px;
+            left: 70px;
+            top: 20px;
+            font-size: 20px;
+            line-height: 14px;
+            letter-spacing: -1px;
+            color: #1F1F1F;
+            }
+
+            .burger{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-right: 40px;
+
+                .a{
+                   border: 1px solid #258AFF;
+                   background-color: #258AFF;
+                   width: 25px;
+                   height: 2px;
+                   margin-bottom: 3px;
+                   margin-top:8px;
+                }
+    
+                .b{
+                    border: 1px solid #258AFF;
+                    background-color: #258AFF;
+                    width: 25px;
+                    height: 2px;
+                    margin-bottom: 3px;
+                }
+    
+                .c{
+                   border: 1px solid #258AFF;
+                   background-color: #258AFF;
+                   width: 25px;
+                   height: 2px;
+                }
+
+            }
+        }
+        
+        .Make{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 60px;
+            
+            h2{
+                font-size: 20px;
+                letter-spacing: 3px;
+                font-family: Karla;
+                color: #666666;
+                font-family: 'Karla', sans-serif;
+            }
+
+            h1{
+                font-size: 55px;
+                font-family: Karla;
+                color: #1F1F1F;
+                font-family: 'Karla', sans-serif;
+            }
+
+            p{
+                color: #666666;
+                font-family: Karla;
+                font-size: 20px;
+                line-height: 40px;
+                font-family: 'Karla', sans-serif;
+            }
+
+            .case{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            input{
+                border: none;
+            }
+
+            .email{
+                border: 1px solid white;
+                text-decoration: none;
+                border-radius: 10px;
+                background-color: white;
+                height: 15px;
+                margin-top: -10px;
+                padding-top: 6px;
+                padding-left: 3px;
+                padding-bottom: 20px;
+            }
+
+            .bouton{
+                display: inline-block;
+                cursor: pointer;
+                text-decoration: none;
+                border: 1px solid #fc593b;
+                background-color: #fc593b;
+                border-radius: 10px;
+                color: white;
+                width: 120px;
+                height: 40px;
+                margin-left: 10px;
+                margin-top: -10px;
+            }
+
+            .bouton:hover{
+                background-color: #E3EEF8;
+                color: #fc593b;
+            }
+
+            h4{
+                font-family: 'Karla', sans-serif;
+                font-size: 12px;
+                color: #878B90;
+            }
+        }
+
+        .icone{
+            display: flex;
+
+            h5{
+                color: #000000;
+                font-family: 'Karla', sans-serif;
+
+            }
+
+            p{
+                color: #666666;
+                font-family: Karla;
+                font-size: 20px;
+                line-height: 40px;
+                font-family: 'Karla', sans-serif;
+            }
+        }
+    }
+}
+
